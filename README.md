@@ -1,7 +1,7 @@
 JobStore
 ========
 
-Per-request global storage for Sidekiq
+Per-job global storage for Sidekiq
 
 How to install JobStore?
 ------------------------
