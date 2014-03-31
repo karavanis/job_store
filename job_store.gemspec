@@ -10,8 +10,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Konstantinos Aravanis"]
   gem.email         = ["kos.arav@gmail.com"]
   gem.homepage      = "https://github.com/sbosx/job_store"
-  gem.summary       = %q{Per Sidekiq job global storage.}
-  gem.description   = %q{Per Sidekiq job global storage.}
+  gem.summary       = %q{Per job global storage for Sidekiq.}
+  gem.description   = %q{Per job global storage for Sidekiq.}
   gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
