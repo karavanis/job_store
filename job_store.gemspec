@@ -7,11 +7,11 @@ require "job_store/version"
 Gem::Specification.new do |gem|
   gem.name          = "job_store"
   gem.version       = JobStore::VERSION
-  gem.authors       = ["Konstantinos Aravanis"]
-  gem.email         = ["kos.arav@gmail.com"]
+  gem.authors       = ["Konstantinos Aravanis", "Steve Klabnik"]
+  gem.email         = ["kos.arav@gmail.com", "steve@steveklabnik.com"]
   gem.homepage      = "https://github.com/sbosx/job_store"
-  gem.summary       = %q{Per job global storage for Sidekiq.}
-  gem.description   = %q{Per job global storage for Sidekiq.}
+  gem.summary       = %q{Per-job global storage for Sidekiq.}
+  gem.description   = %q{Per-job global storage for Sidekiq.}
   gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
